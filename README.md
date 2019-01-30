@@ -6,9 +6,10 @@ Die darzustellenden Objekte sind:
 * **Team**
   * Name
   * Description
-  * (Contacts - not for deployment on a GitPage)
   * Unit
   * Portfoliosegment
+  * (Contacts - not for deployment on a GitPage)
+  * (References - not for deployment on a GitPage)
   
 * **Topic**
   * Name
