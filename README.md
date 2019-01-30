@@ -1,12 +1,12 @@
 # TeamBeziehungen
-Hier sollen mit einem dynamischen Graphen die Beziehungen zwischen verschiedenen Teams der DB Systel dargestellt werden.
+In diesem Projekt sollen mit einem dynamischen Graphen die Beziehungen zwischen verschiedenen Teams der DB Systel dargestellt werden.
 
-Die datenstruktur sieht wie folgt aus:
+Die darzustellenden Objekte sind:
 
 * **Team**
   * Name
   * Description
-  * Contacts
+  * (Contacts - not for deployment on a GitPage)
   * Unit
   * Portfoliosegment
   
@@ -19,6 +19,10 @@ Die datenstruktur sieht wie folgt aus:
 
 * **Skill**
   * Name
-  * Type: Unit, Cluster, Portfoliosegment
 
-Jedes dieser Objekte bezeichnet einen Knoten im Graphen und über die Informationen in den teams werden die Kannten (=Beziehungen) zu den Strukturinformationen (Topic und Organisation) gebildet. Die Skills werden aktuell nicht implementiert, aber könnten den Link zum Kompetenzmarktplatz bilden.
+
+Jedes dieser Objekte stellt einen Knoten im Graphen dar und 
+über die Informationen in den Teams werden die Kannten (=Beziehungen) 
+zu den Strukturinformationen (Topic und Organisation) gebildet. 
+
+Teams, die eine oder mehrere Strukturen gemeinsam aufweisen, erhalten eine direkte Beziehung. Die Skills werden aktuell nicht implementiert, aber könnten den Link zum Kompetenzmarktplatz bilden.
