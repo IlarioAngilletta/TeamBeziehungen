@@ -1,14 +1,14 @@
 {
   "name": "db-api",
   "version": "0.0.1",
-  "description": "Visualize data from @DBOpenData",
+  "description": "Visualize my local data",
   "main": "index.html",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Joachim Schirrmacher <joachim.schirrmacher@deutschebahn.com>",
+  "author": "Ilario Angilletta <Ilario.Angilletta@deutschebahn.com>",
   "license": "MIT",
   "dependencies": {
   },
-  "repository": "https://github.com/dbopendata/dbopendatagraph"
+  "repository": "https://github.com/IlarioAngilletta/TeamBeziehungen"
 }
