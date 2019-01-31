@@ -70,7 +70,7 @@ requirejs(['d3'], function(d3) {
 
     var sourceIds = {};
 
-    var url = location.protocol === 'file:' ? 'http://localhost:3001/' : 'https://ilarioangilletta.github.io/TeamBeziehungen/teamdata';
+    var url = location.protocol === 'file:' ? 'http://localhost:3001/' : 'https://ilarioangilletta.github.io/TeamBeziehungen/teamdata.json';
 
     d3.json(url, function(error, data) {
         if (error) throw error;
