@@ -31,11 +31,7 @@ requirejs(['d3'], function(d3) {
 
     var view = svg.append('g');
 
-    var showList = body.append('button')
-        .attr('id', 'showList')
-        .on('click', function () {
-            window.open('https://zeroonedata.shinyapps.io/hackathon_projects/')
-        });
+
 
     showList.append('span').text('Liste anzeigen');
 
@@ -74,7 +70,7 @@ requirejs(['d3'], function(d3) {
 
     var sourceIds = {};
 
-    var url = location.protocol === 'file:' ? 'http://localhost:3001/' : 'https://dbs.dilab.co/dbopendata';
+    var url = location.protocol === 'file:' ? 'http://localhost:3001/' : 'https://ilarioangilletta.github.io/TeamBeziehungen/teamdata';
 
     d3.json(url, function(error, data) {
         if (error) throw error;
